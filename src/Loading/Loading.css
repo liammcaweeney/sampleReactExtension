@@ -1,0 +1,40 @@
+@media (prefers-reduced-motion: no-preference) {
+    .loading-spinner {
+        animation: spin infinite 2s ease;
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    border:10px solid lightblue;
+    height:120px;
+    border-radius:50%;
+    width:120px;
+}
+
+.cutout {
+    margin-left: 30px;
+    width: 40px;
+    height: 110px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-bottom: 20px;
+    border-bottom: 25px solid yellow;
+}
+
+.box {
+    border: 1px solid red;
+}
+
+.loading p {
+    text-align: left;
+}
